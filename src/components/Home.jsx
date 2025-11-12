@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <>
       <div className='flex justify-center items-center'>
-        <img className="h-83 w-128 flex p-5" src="Antarctica/images/Logo.png" alt="Logo"/>
+        <img className="h-83 w-128 flex p-5" src="/images/Logo.png" alt="Logo"/>
       </div>
 
       <p className='justify-normal px-50'>
