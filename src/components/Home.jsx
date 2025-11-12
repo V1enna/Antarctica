@@ -7,21 +7,21 @@ const Home = () => {
   return (
     <>
       <div className='flex justify-center items-center'>
-        <img className="h-83 w-128 flex p-5" src="/src/assets/images/Logo.png" alt="Logo"/>
+        <img className="h-83 w-128 flex p-5" src="Antarctica/images/Logo.png" alt="Logo"/>
       </div>
 
       <p className='justify-normal px-50'>
         --Authorized by the Iscariot Organization--
       </p>
       <div className='flex justify-center items-center'>
-        <img className="h-20 w-21 flex p-3" src="/src/assets/images/iscariot_logo.png" alt="iscariot"/>
+        <img className="h-20 w-21 flex p-3" src="Antarctica/images/iscariot_logo.png" alt="iscariot"/>
       </div>
 
       <div className='flex justify-center items-center'>
         <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 p-5 gap-10'>
 
           <button className='relative group' onClick={() => navigate('/characters')}>
-            <img className="h-32 w-32 rounded-lg" src="/src/assets/images/Ada.png" alt="Characters"/>
+            <img className="h-32 w-32 rounded-lg" src="Antarctica/images/Ada.png" alt="Characters"/>
             {/* Overlay for hover effect hai*/}
             <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-50 transition-opacity duration-200 rounded-lg"></div>
             <div className="absolute inset-0 flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-200">
@@ -29,21 +29,21 @@ const Home = () => {
             </div>
           </button>
           <button className='relative group'>
-            <img className="h-32 w-32 rounded-lg" src="/src/assets/images/Archimedes.png" alt="Races"/>
+            <img className="h-32 w-32 rounded-lg" src="Antarctica/images/Archimedes.png" alt="Races"/>
             <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-50 transition-opacity duration-200 rounded-lg"></div>
             <div className="absolute inset-0 flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-200">
               Races
             </div>
           </button>
           <button className='relative group'>
-            <img className="h-32 w-32 rounded-lg" src="/src/assets/images/Main_Map.png" alt="Factions"/>
+            <img className="h-32 w-32 rounded-lg" src="Antarctica/images/Main_Map.png" alt="Factions"/>
             <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-50 transition-opacity duration-200 rounded-lg"></div>
             <div className="absolute inset-0 flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-200">
               Factions
             </div>
           </button>
           <button className='relative group'>
-            <img className="h-32 w-32 rounded-lg" src="/src/assets/images/Telemouth.png" alt="Fanart"/>
+            <img className="h-32 w-32 rounded-lg" src="Antarctica/images/Telemouth.png" alt="Fanart"/>
             <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-50 transition-opacity duration-200 rounded-lg"></div>
             <div className="absolute inset-0 flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-200">
               Fanarts
@@ -52,7 +52,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className='background-color: #8b8b8bff text-white p-5 m-10 rounded-lg'>
+      <div className='text-white p-5 m-10 rounded-lg'>
       <h1 className="title">History</h1>
       <p className='justify-normal px-50'>
         In the cold yet newly melted peninsula of Antartica, the sudden spike in the continent's temperature caused it to become rather habitable for humanity. While the common public attributed this event to be the result of black magic or the doing of witches, the cause of this event is still unknown to this day.
