@@ -10,6 +10,7 @@ function App() {
   const [count, setCount] = useState(0);
 
   return (
+  <div className='min-h-screen bg-neutral-800 text-white px-50 py-10'>
     <Router>
       <Navbar />
       <Routes> {/* routes for changing pages */}
@@ -18,7 +19,7 @@ function App() {
         <Route path="/characters/:id" element={<CharInfo />} />
       </Routes>
     </Router>
-
+  </div>
   );
 }
 

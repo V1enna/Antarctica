@@ -10,7 +10,7 @@ const Home = () => {
         <img className="h-83 w-128 flex p-5" src="/images/Logo.png" alt="Logo"/>
       </div>
 
-      <p className='justify-normal px-50'>
+      <p className='justify-normal px-50 text-white'>
         --Authorized by the Iscariot Organization--
       </p>
       <div className='flex justify-center items-center'>
@@ -52,7 +52,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className='text-white p-5 m-10 rounded-lg'>
+      <div className='text-white p-3 m-5 rounded-lg'>
       <h1 className="title">History</h1>
       <p className='justify-normal px-50'>
         In the cold yet newly melted peninsula of Antartica, the sudden spike in the continent's temperature caused it to become rather habitable for humanity. While the common public attributed this event to be the result of black magic or the doing of witches, the cause of this event is still unknown to this day.
