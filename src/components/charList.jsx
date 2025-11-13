@@ -1,4 +1,4 @@
-import Portraits from './portraits';
+import Portraits from './Portraits';
 
 const CharList = ({ characters = [] }) => {
   const list = Array.isArray(characters) ? characters : [];
