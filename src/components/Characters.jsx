@@ -16,7 +16,7 @@ const Characters = () => {
   const pageItems = filtered.slice((page - 1) * perPage, page * perPage); // items for current page
 
   return (
-    <div className="min-h-screen text-white p-8">
+    <div className="min-h-screen text-white p-0 sm:p-2 lg:p-8">
       <h1 className="text-4xl font-bold mb-6 text-center">Characters Page</h1>
 
       <div className="flex justify-center mb-6">
