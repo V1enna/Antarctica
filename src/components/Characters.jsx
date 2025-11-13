@@ -1,6 +1,6 @@
 import React, { useState, useMemo } from 'react';
 import { chardata } from "../assets/data/chardata";
-import CharList from './charlist'; // rename file to CharList.jsx and change this to './CharList' for Vercel
+import CharList from './charList'; // rename file to CharList.jsx and change this to './CharList' for Vercel
 
 const Characters = () => {
   const [query, setQuery] = useState(''); // search query lah
