@@ -7,14 +7,14 @@ const Home = () => {
   return (
     <>
       <div className='flex justify-center items-center'>
-        <img className="h-83 w-128 flex p-5" src="Antarctica/images/Logo.png" alt="Logo"/>
+        <img className="h-83 w-128 flex p-5" src="/Antarctica/images/Logo.png" alt="Logo"/>
       </div>
 
       <p className='justify-normal px-50'>
         --Authorized by the Iscariot Organization--
       </p>
       <div className='flex justify-center items-center'>
-        <img className="h-20 w-21 flex p-3" src="Antarctica/images/iscariot_logo.png" alt="iscariot"/>
+        <img className="h-20 w-21 flex p-3" src="/Antarctica/images/iscariot_logo.png" alt="iscariot"/>
       </div>
 
       <div className='flex justify-center items-center'>
