@@ -1,3 +1,4 @@
+// CHARACTER LIST PAGE UHEAUHE
 import React, { useState, useMemo } from 'react';
 import { chardata } from "../assets/data/chardata";
 import CharList from './charList'; // rename file to CharList.jsx and change this to './CharList' for Vercel
@@ -16,13 +17,13 @@ const Characters = () => {
   const pageItems = filtered.slice((page - 1) * perPage, page * perPage); // items for current page
 
   return (
-    <div className="min-h-screen text-white p-0 sm:p-2 lg:p-8">
+    <div className="min-h-screen text-white sm:p-2 lg:p-8">
       <h1 className="text-4xl font-bold mb-6 text-center">Characters Page</h1>
 
       <div className="flex justify-center mb-6">
         <input
           value={query}
-          onChange={e => { setQuery(e.target.value); setPage(1); }}
+          onChange={e => { setQuery(e.target.value); setPage(1); }} // to search
           placeholder="Search characters..."
           className="w-full max-w-md p-2 rounded bg-gray-800 border border-gray-700"
         />
@@ -31,7 +32,7 @@ const Characters = () => {
       <CharList characters={pageItems} />
 
       <div className="flex justify-center items-center gap-3 mt-6">
-        <button
+        <button // page navigation buttons
           disabled={page === 1}
           onClick={() => setPage(p => Math.max(1, p - 1))}
           className="px-3 py-1 bg-gray-800 rounded disabled:opacity-50"

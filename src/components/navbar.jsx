@@ -15,7 +15,7 @@ const Navbar = () => {
                 <li><Link to="/races">Races</Link></li>
                 <li><Link to="/nations">Factions</Link></li>
                 <li><Link to="/fanarts">Fanarts</Link></li>
-                <li><Link to="/fanarts">About</Link></li>
+                <li><Link to="/about">About</Link></li>
             </ul> 
         </div>
     </nav>

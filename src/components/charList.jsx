@@ -1,3 +1,5 @@
+// PICTURES FOR CHARACTER LIST
+
 import Portraits from './Portraits';
 
 const CharList = ({ characters = [] }) => {
