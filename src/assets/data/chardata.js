@@ -331,4 +331,16 @@ export const chardata = [
     affiliation: "Unknown",
     description: ""
   },
+  {
+    id: 'chess',
+    name: "Blackat",
+    quote: "",
+    alias: "The Chessire Cat",
+    image: "/Antarctica/images/Chess.png",
+    race: "Vulpin",
+    class: "Unknown",
+    gender: "Female",
+    affiliation: "Unknown",
+    description: ""
+  },
 ];
