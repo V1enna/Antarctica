@@ -142,7 +142,7 @@ export const chardata = [
     {
     id: 'robin-hood',
     name: "Robin Hood",
-    quote: "There has been a rise of demonic activities in the area...",
+    quote: "If only I could do more...",
     alias: "The Hero of Nottingham",
     image: "/images/RobinHood.png",
     race: "Vulpin",
