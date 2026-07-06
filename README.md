@@ -1,3 +1,1 @@
-npm run dev
-
-npm install react-router-dom - for links inbetween pages, standard for react
+Wiki-like site for Antarctica DND (Dungeons and Dragons) Campaign for the friend group
