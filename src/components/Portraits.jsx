@@ -11,7 +11,7 @@ return (
         className="w-full h-48 object-cover transition-all duration-200 bg-black"
       />
       <div className="absolute inset-0 bg-black opacity-30 group-hover:opacity-0 transition-all duration-200"></div>
-      <h2 className="text-xl bottom-2 font-bold text-xl text-white group-hover:">{character.name}</h2>
+      <h2 className="text-xl bottom-2 font-bold text-xl">{character.name}</h2>
     </button>
 );
 };

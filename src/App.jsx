@@ -5,7 +5,9 @@ import Characters from './components/Characters.jsx';
 import Home from './components/Home';
 import './App.css';
 import CharInfo from './components/charInfo.jsx';
+import Artworks from './components/Artworks.jsx';
 import About from './components/About.jsx';
+import Nations from './components/Nations.jsx';
 
 function App() {
   const [count, setCount] = useState(0);
@@ -18,6 +20,8 @@ function App() {
         <Route path="/" element={<Home />} /> 
         <Route path="/characters" element={<Characters />} />
         <Route path="/characters/:id" element={<CharInfo />} />
+        <Route path="/artworks" element={<Artworks />} />
+        <Route path="/nations" element={<Nations />} />
         <Route path="/about" element={<About />} />
       </Routes>
     </Router>

@@ -10,12 +10,12 @@ const Navbar = () => {
         </div>
         <div className='navbar-center'>
             <ul className='navbar-links'>
-                <li><Link to="/">Main</Link></li>
-                <li><Link to="/characters">Characters</Link></li>
-                <li><Link to="/races">Races</Link></li>
-                <li><Link to="/nations">Factions</Link></li>
-                <li><Link to="/fanarts">Fanarts</Link></li>
-                <li><Link to="/about">About</Link></li>
+                <li className="opacity-50 hover:opacity-100"><Link to="/">Main</Link></li>
+                <li className="opacity-50 hover:opacity-100"><Link to="/characters">Characters</Link></li>
+                <li className="opacity-50 hover:opacity-100"><Link to="/races">Races</Link></li>
+                <li className="opacity-50 hover:opacity-100"><Link to="/nations">Nations</Link></li>
+                <li className="opacity-50 hover:opacity-100"><Link to="/artworks">Artworks</Link></li>
+                <li className="opacity-50 hover:opacity-100"><Link to="/about">About</Link></li>
             </ul> 
         </div>
     </nav>

@@ -35,7 +35,7 @@ export const chardata = [
     class: "Assassin",
     gender: "Male",
     affiliation: "Manathil's Village",
-    description: ""
+    description: "Archimedes is a goofy but rather friendly avian resident of Manathil's Village. He has a weird obsession with eating coins. He is also unemployed and often flies"
   },
 
   {
@@ -48,20 +48,20 @@ export const chardata = [
     class: "Exorcist",
     gender: "Female",
     affiliation: "Manathil's Village",
-    description: ""
+    description: "As an adopted geitlan taken in by Manathil and Archimedes, Bianca is a resident that fulfills the roles as their "
   },
 
   {
     id: 'manathil',
     name: "Manathil",
     quote: "This village is built to be a safe haven for chimeras AND humans.",
-    alias: "Deserter of Iscariot",
+    alias: "Deserter of Iscariot, Angel of Death",
     image: "/images/Manathil.png",
     race: "Vampire",
     class: "Assassin",
     gender: "Male",
     affiliation: "Manathil's Village",
-    description: ""
+    description: "Manathil was a former member of the Iscariot Organization, regarded as one of their most efficient moons"
   },
 
   {
@@ -74,7 +74,7 @@ export const chardata = [
     class: "Unknown",
     gender: "Male",
     affiliation: "Chronos Mafia",
-    description: ""
+    description: "Actuil is a Chronos who runs a shop whenever and wherever he feels like it."
   },
 
   {
@@ -87,7 +87,7 @@ export const chardata = [
     class: "Unknown",
     gender: "Female",
     affiliation: "Unknown",
-    description: ""
+    description: "Seres is an innocent elf who is the mother of Prima. Driven by guilt and desperation when she initially lost her daughter, she accepted anything that came home that night"
   },
 
   {
@@ -106,7 +106,7 @@ export const chardata = [
   {
     id: 'fool',
     name: "The Fool",
-    quote: "Why did the damned Gardener label us the villains",
+    quote: "What truly came home that night",
     alias: "The First",
     image: "/images/Fool.png",
     race: "Demon",
@@ -148,7 +148,7 @@ export const chardata = [
     race: "Vulpin",
     class: "Ranger",
     gender: "Male",
-    affiliation: "Notthingham",
+    affiliation: "Notthingham Port",
     description: ""
   },
     {
@@ -167,12 +167,12 @@ export const chardata = [
     id: 'linfeng',
     name: "Lin Feng",
     quote: "There has been a rise of demonic activities in the area...",
-    alias: "Admiral of Mid-Isla Porte",
+    alias: "Primary Cpatain of Mid-Isla Porte",
     image: "/images/LinFeng.png",
     race: "Serpentine",
     class: "Unknown",
     gender: "Male",
-    affiliation: "Notthingham",
+    affiliation: "Notthingham Port",
     description: ""
   },
     {
@@ -241,11 +241,11 @@ export const chardata = [
     quote: "",
     alias: "The Overseas Father",
     image: "/images/Louis.png",
-    race: "Amphibian",
+    race: "Elf",
     class: "Unknown",
     gender: "Male",
     affiliation: "Unknown",
-    description: ""
+    description: "Louis was a father who had to leave his family to work overseas to provide for them. He was supposed to return to mainland Sunset Isles to return to his family but his life was cut short when he became infected by a mind-devouring spider fueled by demonic arcana energy. With a sliver of his sanity and love left for his son, he ended up taking his own life. His body burns in that old locked bathroom"
   },
     {
     id: 'mercury',
@@ -257,7 +257,7 @@ export const chardata = [
     class: "Unknown",
     gender: "Male",
     affiliation: "Iscariot Organization",
-    description: ""
+    description: "A mysterious man with a bird mask, confirmed to be a member of the Iscariot Organization due to the laurel leaf tattoo placed on his forehead. He speaks with pauses inbetween his sentences"
   },
     {
     id: 'Markov',
@@ -269,7 +269,7 @@ export const chardata = [
     class: "Unknown",
     gender: "Male",
     affiliation: "Transitus",
-    description: ""
+    description: "A mechanic of the Transitus railway"
   },
     {
     id: 'dorm',
@@ -281,7 +281,7 @@ export const chardata = [
     class: "Unknown",
     gender: "Female",
     affiliation: "Unknown",
-    description: ""
+    description: "Not too much is known about Dorm"
   },
     {
     id: 'hatter',
@@ -293,7 +293,7 @@ export const chardata = [
     class: "Unknown",
     gender: "Male",
     affiliation: "Unknown",
-    description: ""
+    description: "An odd man"
   },
   {
     id: 'ophelia',

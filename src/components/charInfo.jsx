@@ -23,7 +23,7 @@ const CharInfo = () => {
             <h3 className="text-center ">"{characterinfo.quote}"</h3>
             
 
-            <div className="p-2 rounded-lg mb-4 border border-gray-300 inline-block">
+            <div className="p-2 rounded-lg mb-4 border border-violet-400 inline-block">
             <h5 className="text-lg font-semibold">Gender: {characterinfo.gender}</h5>
             <h5 className="text-lg font-semibold">Race: {characterinfo.race}</h5>
             <h5 className="text-lg font-semibold">Class: {characterinfo.class}</h5>
@@ -32,9 +32,10 @@ const CharInfo = () => {
 
             <br/>
 
-            <div className="p-6 rounded-lg mb-4 border border-gray-300 inline-block">
-            <p className="text-lg font-bold">Description</p>
-            <p className="text-lg mt-4">{characterinfo.description}</p>
+            <p className="text-lg font-bold flex justify-left">Description</p>
+            <div className="p-2 rounded-lg mb-2 border border-violet-400">
+            
+            <p className="text-lg">{characterinfo.description}</p>
             </div>
         
 

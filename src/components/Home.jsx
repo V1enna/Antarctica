@@ -35,15 +35,15 @@ const Home = () => {
               Races
             </div>
           </button>
-          <button className='relative group'>
-            <img className="h-32 w-32 rounded-lg" src="/images/Main_Map.png" alt="Factions"/>
+          <button className='relative group' onClick={() => navigate('/Nations')}>
+            <img className="h-32 w-32 rounded-lg" src="/images/Main_Map.png" alt="Nations"/>
             <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-50 transition-opacity duration-200 rounded-lg"></div>
             <div className="absolute inset-0 flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-200">
-              Factions
+              Nations
             </div>
           </button>
-          <button className='relative group'>
-            <img className="h-32 w-32 rounded-lg" src="/images/Telemouth.png" alt="Fanart"/>
+          <button className='relative group' onClick={() => navigate('/Artworks')}>
+            <img className="h-32 w-32 rounded-lg" src="/images/Telemouth.png" alt="Artworks"/>
             <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-50 transition-opacity duration-200 rounded-lg"></div>
             <div className="absolute inset-0 flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-200">
               Fanarts
@@ -70,6 +70,10 @@ const Home = () => {
         <br/><br/>
         Thus begin the expeditions. A series of campaigns that seek the destruction of the demons, wherein both chimeras and humans are meant to work together and free the continent.
       </p>
+      </div>
+
+      <div className='flex justify-center items-center'>
+        <iframe className="w-170 h-96" src="https://www.youtube.com/embed/vaDnw2gtGB0?si=AIKHWK_aHBPt5x8e" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
       </div>
     </>
   );

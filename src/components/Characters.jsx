@@ -14,7 +14,7 @@ const Characters = () => {
   ); // filter characters based on search query PLEASE
 
   const pageCount = Math.max(1, Math.ceil(filtered.length / perPage)); // total number of pages
-  const pageItems = filtered.slice((page - 1) * perPage, page * perPage); // items for current page
+  const pageItems = filtered.slice((page - 1) * perPage, page * perPage); // items for current page, references the filtered charlist
 
   return (
     <div className="min-h-screen text-white sm:p-2 lg:p-8">
@@ -43,8 +43,7 @@ const Characters = () => {
         <button
           disabled={page === pageCount}
           onClick={() => setPage(p => Math.min(pageCount, p + 1))}
-          className="px-3 py-1 bg-gray-800 rounded disabled:opacity-50"
-        >
+          className="px-3 py-1 bg-gray-800 rounded disabled:opacity-50">
           Next
         </button>
       </div>
