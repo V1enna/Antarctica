@@ -1,13 +1,13 @@
 import { useState } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from './components/navbar.jsx';
-import Characters from './components/Characters.jsx';
-import Home from './components/Home';
+import Characters from './Pages/Characters.jsx';
+import Home from './Pages/Home';
 import './App.css';
 import CharInfo from './components/charInfo.jsx';
-import Artworks from './components/Artworks.jsx';
-import About from './components/About.jsx';
-import Nations from './components/Nations.jsx';
+import Artworks from './Pages/Artworks.jsx';
+import About from './Pages/About.jsx';
+import Nations from './Pages/Nations.jsx';
 
 function App() {
   const [count, setCount] = useState(0);
