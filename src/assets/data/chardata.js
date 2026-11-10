@@ -9,7 +9,8 @@ export const chardata = [
     class: "Fighter",
     gender: "Female",
     affiliation: "Iscariot Organization",
-    description: "Acting as the personal bodyguard and close associate to Maria Ashinov, Ada Volkovia is a cold-blooded swordswoman. With unusual regenerative abilities keeping her alive"
+    description: "Acting as the personal bodyguard and close associate to Maria Ashinov, Ada Volkovia is a cold-blooded swordswoman. With unusual regenerative abilities keeping her alive",
+    trivia: "Ada was supposed to be my player character in the first intended dnd campaign, but since it did not happen she became a major npc character for Antarcitca."
   },
 
   {
@@ -22,7 +23,8 @@ export const chardata = [
     class: "Exorcist",
     gender: "Female",
     affiliation: "Iscariot Organization",
-    description: "Maria Ashinov is a major member of the Iscariot Organization under the alias, Venus. She is known to be outgoing and relatively calm with a deep faith of the existence of a God"
+    description: "Maria Ashinov is a major member of the Iscariot Organization under the alias, Venus. She is known to be outgoing and relatively calm with a deep faith of the existence of a God",
+    trivia: "Maria's role was supposed to be taken by one of my older OCs, Sloth. But instead she was created under the inspiration of Sloth, who similarly possess religious and sloth-like themes"
   },
 
   {
@@ -61,7 +63,7 @@ export const chardata = [
     class: "Assassin",
     gender: "Male",
     affiliation: "Manathil's Village",
-    description: "Manathil was a former member of the Iscariot Organization, regarded as one of their most efficient moons"
+    description: "Manathil was a former member of the Iscariot Organization, regarded as one of their most efficient moons. After taking his permanent leave from the organization, he has since established a small village right at the Southern Border of Sunset Isles. A village meant to take in both chimeras and humans alike, with its first original residents being Bianca and Archimedes. Both considered to be his adoptive children and has since been a father figure to them."
   },
 
   {
