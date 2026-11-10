@@ -9,7 +9,7 @@ export const chardata = [
     class: "Fighter",
     gender: "Female",
     affiliation: "Iscariot Organization",
-    description: "Acting as the personal bodyguard and close associate to Maria Ashinov, Ada Volkovia is a cold-blooded swordswoman."
+    description: "Acting as the personal bodyguard and close associate to Maria Ashinov, Ada Volkovia is a cold-blooded swordswoman. With unusual regenerative abilities keeping her alive"
   },
 
   {
@@ -22,7 +22,7 @@ export const chardata = [
     class: "Exorcist",
     gender: "Female",
     affiliation: "Iscariot Organization",
-    description: "Maria Ashinov is a major member of the Iscariot Organization under the alias, Venus. She is known to be outgoing and relatively calm with a deep belief of the existence of a God"
+    description: "Maria Ashinov is a major member of the Iscariot Organization under the alias, Venus. She is known to be outgoing and relatively calm with a deep faith of the existence of a God"
   },
 
   {
@@ -41,7 +41,7 @@ export const chardata = [
   {
     id: 'bianca',
     name: "Bianca",
-    quote: "I will remain here and stay with my family.",
+    quote: "I will remain here and stay with my new family.",
     alias: "Child of Shadow",
     image: "/images/Bianca.png",
     race: "Geitlan",
@@ -54,7 +54,7 @@ export const chardata = [
   {
     id: 'manathil',
     name: "Manathil",
-    quote: "This village is built to be a safe haven for chimeras AND humans.",
+    quote: "This village is built to be a safe haven for chimeras and humans.",
     alias: "Deserter of Iscariot, Angel of Death",
     image: "/images/Manathil.png",
     race: "Vampire",
@@ -106,7 +106,7 @@ export const chardata = [
   {
     id: 'fool',
     name: "The Fool",
-    quote: "What truly came home that night",
+    quote: "What truly came home that night?",
     alias: "The First",
     image: "/images/Fool.png",
     race: "Demon",
@@ -125,19 +125,19 @@ export const chardata = [
     class: "Priest",
     gender: "Female",
     affiliation: "Unknown",
-    description: ""
+    description: "Schrodinger is a nomad"
   },
   {
     id: 'napoleon',
     name: "Napoleon",
-    quote: "There has been a rise of demonic activities in the area...",
+    quote: "Damned Cat...",
     alias: "The Revolutionary Pig",
     image: "/images/Napoleon.png",
     race: "Pig",
     class: "Enchanter",
     gender: "Male",
     affiliation: "Unknown",
-    description: ""
+    description: "Napoleon is"
   },
     {
     id: 'robin-hood',
@@ -149,7 +149,7 @@ export const chardata = [
     class: "Ranger",
     gender: "Male",
     affiliation: "Notthingham Port",
-    description: ""
+    description: "Robin Hood is considered the first line of Defense for the Port of Nottingham, gateway to Solstice Isles"
   },
     {
     id: 'murphy',
@@ -167,7 +167,7 @@ export const chardata = [
     id: 'linfeng',
     name: "Lin Feng",
     quote: "There has been a rise of demonic activities in the area...",
-    alias: "Primary Cpatain of Mid-Isla Porte",
+    alias: "Primary Captain of Mid-Isla Porte",
     image: "/images/LinFeng.png",
     race: "Serpentine",
     class: "Unknown",
@@ -184,8 +184,8 @@ export const chardata = [
     race: "Serpentine",
     class: "Unknown",
     gender: "Male",
-    affiliation: "Notthingham",
-    description: ""
+    affiliation: "Notthingham Port",
+    description: "Thomas is a new-hire of the Amber Throne's Noble Shield. He is a geitlan guard stationed at the Nottingham Port"
   },
     {
     id: 'elaine',
@@ -250,7 +250,7 @@ export const chardata = [
     {
     id: 'mercury',
     name: "?",
-    quote: "",
+    quote: "We will gladly sacrifice lives of hundreds of chimeras to kill one Demon Arcana",
     alias: "The Birdmask",
     image: "/images/Mercury.png",
     race: "Human",
@@ -260,22 +260,22 @@ export const chardata = [
     description: "A mysterious man with a bird mask, confirmed to be a member of the Iscariot Organization due to the laurel leaf tattoo placed on his forehead. He speaks with pauses inbetween his sentences"
   },
     {
-    id: 'Markov',
-    name: "Markov",
+    id: 'hyde',
+    name: "Mr. Hyde",
     quote: "",
-    alias: "The Mechanic",
-    image: "/images/Markov.png",
+    alias: "Golden Guard Mechanic",
+    image: "/images/Hyde.png",
     race: "Human",
     class: "Unknown",
     gender: "Male",
     affiliation: "Transitus",
-    description: "A mechanic of the Transitus railway"
+    description: "A mechanic of the Transitus railway assigned by the Golden Guards"
   },
     {
     id: 'dorm',
     name: "Dorm",
     quote: "",
-    alias: "The Dormouse",
+    alias: "The Dormouse, Acrobat of the Wonderland Troupe",
     image: "/images/Dorm.png",
     race: "Rat",
     class: "Unknown",
@@ -287,20 +287,20 @@ export const chardata = [
     id: 'hatter',
     name: "Hatter",
     quote: "",
-    alias: "The Mad Hatter",
+    alias: "The Mad Hatter, Stagehand of the Wonderland Troupe",
     image: "/images/Hatter.png",
     race: "Crowbane",
     class: "Unknown",
     gender: "Male",
-    affiliation: "Unknown",
+    affiliation: "Wonderland Troupe",
     description: "An odd man"
   },
   {
-    id: 'ophelia',
-    name: "Ophelia",
+    id: 'naiad',
+    name: "Naiad",
     quote: "",
-    alias: "Moon of Uranus",
-    image: "/images/Ophelia.png",
+    alias: "Moon of Neptune",
+    image: "/images/Naiad.png",
     race: "Human",
     class: "Unknown",
     gender: "Female",
@@ -311,19 +311,19 @@ export const chardata = [
     id: 'solstice',
     name: "Solstice-san",
     quote: "",
-    alias: "Beautiful, Glorious Solstice",
+    alias: "Capricorn of the Golden Guard",
     image: "/images/Solstice.png",
     race: "Vulpin",
     class: "Unknown",
     gender: "Male",
-    affiliation: "Solstice Journalism",
+    affiliation: "Solstice Journalism, Golden Guards",
     description: ""
   },
     {
     id: 'rusica',
     name: "Rusica",
     quote: "",
-    alias: "The One who flew too close to the sun",
+    alias: "Leader of the Feathers of Icarus",
     image: "/images/Rusica.png",
     race: "Avian",
     class: "Unknown",
@@ -337,6 +337,18 @@ export const chardata = [
     quote: "",
     alias: "The Chessire Cat",
     image: "/images/Chess.png",
+    race: "Vulpin",
+    class: "Unknown",
+    gender: "Female",
+    affiliation: "Unknown",
+    description: "Blackat, also known as CasaBlanca, is one of the more renowned criminals of the Golden Throne"
+  },
+  {
+    id: 'march',
+    name: "March",
+    quote: "",
+    alias: "The March Hare, Animal Tamer of the Wonderland Troupe",
+    image: "/images/March.png",
     race: "Vulpin",
     class: "Unknown",
     gender: "Female",
