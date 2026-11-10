@@ -9,16 +9,19 @@ const CharInfo = () => {
     const characterinfo = chardata.find((c) => c.id === id);
 
     return (
-        <div>
+        <div className = "grid grid-cols-1 items-start gap-8 md:grid-cols-2">
+            
+            <section>
+            <img
+            src={characterinfo.image}
+            alt={characterinfo.name}
+            className="mx-auto w-full max-w-md rounded-lg object-cover"
+            />
+            </section>
+
+            <section>
             <h1 className="font-bold text-2xl">{characterinfo.name}</h1>
             <h2 className="italic text-xl mb-4">{characterinfo.alias}</h2>
-
-            <div className="flex justify-center">
-            <img // image
-            src={characterinfo.image} 
-            alt={characterinfo.name}
-            className="h-96 w-96 rounded-lg mb-4 flex justify-center" />
-            </div>
 
             <h3 className="text-center ">"{characterinfo.quote}"</h3>
             
@@ -37,6 +40,7 @@ const CharInfo = () => {
             
             <p className="text-lg">{characterinfo.description}</p>
             </div>
+            </section>
         
 
         </div>
